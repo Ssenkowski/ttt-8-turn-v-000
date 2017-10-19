@@ -22,6 +22,7 @@ def valid_move?(board, index)
     move(board, input, token = "X")
     display_board(board)
   else == false
+  end
 end
 
 def position_taken?(board, index)
