@@ -36,6 +36,7 @@ def turn(board)
   user_input = gets.strip
   input_to_index(user_input)
   if valid_move?(board, index) == true
+    move(board, input, token = "X")
   else valid_move?(board, index) == false
   end
 end
