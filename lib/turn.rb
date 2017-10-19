@@ -29,7 +29,8 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip
   input_to_index(user_input)
-  if valid_move?([" "," "," "," "," "," "," "," "," "], 0) == true
+  if valid_move?([" "," "," "," "," "," "," "," "," "], 0) == true && position_taken?([" "," "," "," "," "," "," "," "," "], 0) == true
+    move([" "," "," "," "," "," "," "," "," "], 0, "X")
   else valid_move?([" "," "," "," "," "," "," "," "," "], 0) == false
     puts "Please enter 1-9:"
     user_input = gets.strip
