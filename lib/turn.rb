@@ -19,8 +19,6 @@ end
 
 def valid_move?(board, index)
   if board[index] == " " && board[index] == "" && index <= 8 && index >= 0 && position_taken?(board, index) == true
-    move(board, input, token = "X")
-    display_board(board)
   else false
   end
 end
