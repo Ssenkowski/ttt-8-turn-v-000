@@ -33,8 +33,5 @@ def turn(board)
   input_to_index(user_input)
   if valid_move?([" "," "," "," "," "," "," "," "," "], 0) == true
   else valid_move?([" "," "," "," "," "," "," "," "," "], 0) == false
-    puts "Please enter 1-9:"
-    until valid_move?([" "," "," "," "," "," "," "," "," "], 0) == true
-    end
   end
 end
