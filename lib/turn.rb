@@ -18,7 +18,7 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  if position_taken?(board, index) == false
+  if position_taken?(board, index) == true
     return false
   else
     return true
