@@ -37,6 +37,6 @@ def turn(board)
   input_to_index(user_input)
   if valid_move([" ", " ", " ", " ", " ", " ", " ", " ", " "], 0) == true
     move(board, input, token ="X")
-  else "Please enter 1-9:"
+  else puts "Please enter 1-9:"
   end
 end
