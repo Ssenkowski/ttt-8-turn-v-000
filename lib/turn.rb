@@ -31,6 +31,5 @@ def turn(board)
   input_to_index(user_input)
   if valid_move?([" "," "," "," "," "," "," "," "," "], 0) == true
   else valid_move?([" "," "," "," "," "," "," "," "," "], 0) == false
-    turn(board)
   end
 end
