@@ -8,5 +8,3 @@ puts "Welcome to Tic Tac Toe!"
 
 display_board(board)
 turn(1)
-move(board, input, token)
-display_board(board)
