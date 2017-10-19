@@ -33,7 +33,8 @@ def turn(board)
     move(board, input, token)
     display_board(board)
   else valid_move?([" "," "," "," "," "," "," "," "," "], 0) == false
-    puts "Please enter 1-9:" until valid_move?([" "," "," "," "," "," "," "," "," "], 0) == true
+    puts "Please enter 1-9:" 
+    until valid_move?([" "," "," "," "," "," "," "," "," "], 0) == true
     end
   end
 end
