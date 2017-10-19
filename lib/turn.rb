@@ -20,8 +20,8 @@ end
 def valid_move?(board, index)
   if position_taken?(board, index) == false
     return false
-  else 
-    return true 
+  else
+    return true
   end
 end
 
